@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav class="navbar">
+            <div class="navbar-center">
+                <div class="logo">
+                    <h2>Ocean Vista</h2>
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="right">
+                    <ul class="menu">
+                        <li class="menu-items"><a href="#home">Home</a></li>
+                        <li class="menu-items"><a href="#about">About</a></li>
+                        <li class="menu-items">
+                            <a href="#" class="sub-btn">Services<i class="fa-solid fa-caret-down side"></i></a>
+                            <ul class="sub-menu">
+                                <li class="sub-items"><a href="#">sub-items1</a></li>
+                                <li class="sub-items"><a href="#">sub-items2</a></li>
+                                <li class="sub-items"><a href="#">sub-items3</a></li>
+                                <li class="sub-items"><a href="#">sub-items4</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-items"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button class="btn"><a href="#">Log in</a></button>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <main>
+            <section class="home" id="home">
+                <div class="home-center">
+                    <div class="home-title">
+                        <h1>Scroll Project</h1>
+                    </div>
+                    <div class="home-para">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti veniam ducimus laboriosam
+                            magnam saepe repellendus ipsam doloribus voluptatem!</p>
+                    </div>
+                    <div class="home-btn">
+                        <button><a href="#">Explore more</a></button>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <p></p>
+            </section>
+        </main>
+    </header>
+    <script src="./app.js"></script>
+</body>
+
+</html>
